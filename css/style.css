@@ -1,7 +1,17 @@
 body { background-image: url("../images/2.jpg"); background-repeat: no-repeat; background-size: cover; color: white; text-align: center; }
 
-header { margin: 20px; }
+header { height: 200px; }
 
-.trigger { background-color: Transparent; background-repeat: no-repeat; border: 2px solid white; cursor: pointer; overflow: hidden; outline: none; padding: 10px; border-radius: 10px; color: white; }
+header h1 { line-height: 200px; font-size: 60px; }
 
-.tweet { color: white; }
+.box { height: 50vh; }
+
+.wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+.trigger { background-color: transparent; background-repeat: no-repeat; border: 2px solid white; cursor: pointer; overflow: hidden; outline: none; padding: 10px; border-radius: 10px; color: white; margin: 20px 0; font-weight: bold; }
+
+.trigger:hover { background-color: white; color: #534653; }
+
+.tweet { color: white; text-decoration: none; }
+
+.tweet:hover { text-decoration: none; }

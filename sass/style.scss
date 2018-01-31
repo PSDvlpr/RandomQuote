@@ -1,3 +1,5 @@
+$font-color: #534653;
+
 body {
   background-image: url('../images/2.jpg');
   background-repeat: no-repeat;
@@ -7,12 +9,26 @@ body {
 }
 
 header {
-  margin: 20px;
+  height: 200px;
+  h1 {
+    line-height: 200px;
+    font-size: 60px;
+  }
 }
 
+.box {
+  height: 50vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
 
 .trigger {
-    background-color: Transparent;
+    background-color: transparent;
     background-repeat:no-repeat;
     border: 2px solid white;
     cursor:pointer;
@@ -21,8 +37,18 @@ header {
     padding: 10px;
     border-radius: 10px;
     color: white;
+    margin: 20px 0;
+    font-weight: bold;
+    &:hover {
+      background-color: white;
+      color: $font-color;
+    }
 }
 
 .tweet {
   color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
