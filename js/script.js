@@ -38,8 +38,8 @@ function createTweet(input) {
     }
 }
 
-
   getQuote();
+
   $('.trigger').click(function() {
     getQuote();
   });
