@@ -1,17 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette|Fredericka+the+Great|Roboto");
 body { background-image: url("../images/2.jpg"); background-repeat: no-repeat; background-size: cover; color: white; text-align: center; }
 
 header { height: 200px; }
 
-header h1 { line-height: 200px; font-size: 60px; }
+header h1 { line-height: 200px; font-size: 65px; letter-spacing: 4px; font-family: "Fredericka the Great", cursive; }
 
-.box { height: 50vh; }
+.box { height: 30vh; margin-top: 20px; }
+
+.box h2 { margin-top: 60px; font-family: "Courgette", cursive; font-size: 50px; }
+
+.box h3 { font-family: "Roboto", sans-serif; }
 
 .wrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
 
-.trigger { background-color: transparent; background-repeat: no-repeat; border: 2px solid white; cursor: pointer; overflow: hidden; outline: none; padding: 10px; border-radius: 10px; color: white; margin: 20px 0; font-weight: bold; }
+.trigger { width: 300px; background-color: transparent; background-repeat: no-repeat; border: 2px solid white; cursor: pointer; overflow: hidden; outline: none; padding: 10px; border-radius: 10px; color: white; margin: 20px 0; font-weight: bold; font-size: 26px; transition: all .4s ease-in-out; }
 
-.trigger:hover { background-color: white; color: #534653; }
+.trigger:hover { -webkit-transform: scale(1.1); transform: scale(1.1); background-color: white; color: #534653; }
 
-.tweet { color: white; text-decoration: none; }
+.tweet { background-color: transparent; background-repeat: no-repeat; border: 2px solid white; cursor: pointer; overflow: hidden; outline: none; padding: 10px; border-radius: 10px; color: white; margin: 20px 0; font-weight: bold; transition: all .4s ease-in-out; }
 
-.tweet:hover { text-decoration: none; }
+.tweet:hover { text-decoration: none; -webkit-transform: scale(0.7); transform: scale(0.7); background-color: white; color: #534653; }

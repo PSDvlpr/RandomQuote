@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Fredericka+the+Great|Roboto');
+
 $font-color: #534653;
+$header: 'Fredericka the Great', cursive;
+$quote: 'Courgette', cursive;
+$autor: 'Roboto', sans-serif;
+
 
 body {
   background-image: url('../images/2.jpg');
@@ -12,13 +18,25 @@ header {
   height: 200px;
   h1 {
     line-height: 200px;
-    font-size: 60px;
+    font-size: 65px;
+    letter-spacing: 4px;
+    font-family: $header;
   }
 }
 
 .box {
-  height: 50vh;
+  height: 30vh;
+  margin-top: 20px;
+  h2 {
+    margin-top: 60px;
+    font-family: $quote;
+    font-size: 50px;
+  }
+  h3 {
+    font-family: $autor;
+  }
 }
+
 
 .wrapper {
   display: flex;
@@ -28,6 +46,7 @@ header {
 }
 
 .trigger {
+    width: 300px;
     background-color: transparent;
     background-repeat:no-repeat;
     border: 2px solid white;
@@ -39,16 +58,32 @@ header {
     color: white;
     margin: 20px 0;
     font-weight: bold;
+    font-size: 26px;
+    transition: all .4s ease-in-out;
     &:hover {
+      transform: scale(1.1);
       background-color: white;
       color: $font-color;
     }
 }
 
 .tweet {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
   color: white;
-  text-decoration: none;
+  margin: 20px 0;
+  font-weight: bold;
+  transition: all .4s ease-in-out;
   &:hover {
     text-decoration: none;
+    transform: scale(0.7);
+    background-color: white;
+    color: $font-color;
   }
 }
