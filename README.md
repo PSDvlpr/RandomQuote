@@ -4,6 +4,6 @@
 
 ## Technologies used:
 
+* AJAX
 * JQUERY
-* JS
 * CSS3 & SASS
